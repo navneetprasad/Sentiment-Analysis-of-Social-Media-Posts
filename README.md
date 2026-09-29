@@ -23,3 +23,37 @@ An NLP-based machine learning project that classifies social media posts into Po
 ├── app.py                   # Streamlit web application
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
+
+Installation & Setup
+1. Clone the Repository
+Bash
+git clone [https://github.com/navneet-prasad/sentiment-analyzer.git](https://github.com/navneet-prasad/sentiment-analyzer.git)
+cd sentiment-analyzer
+2. Install Dependencies
+Ensure Python is installed, then install the required packages:
+
+Bash
+pip install -r requirements.txt
+(Contents of requirements.txt:)
+
+Plaintext
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+How to Run
+1. Train the Model (Optional)
+To process the dataset and generate fresh .pkl files for the model and vectorizer:
+
+Bash
+python setup.py
+2. Launch the Web App
+Run the following command in your terminal (ensure you are using your Anaconda environment) to start the dashboard:
+
+Bash
+streamlit run app.py
+The application will automatically launch in your default web browser at http://localhost:8501.
+
+Dataset
+This project utilizes the Twitter US Airline Sentiment dataset, which consists of approximately 15,000 tweets directed at major US airlines, pre-labeled by human reviewers to train the classification algorithm.
