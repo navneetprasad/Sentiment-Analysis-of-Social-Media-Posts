@@ -24,7 +24,7 @@ An NLP-based machine learning project that classifies social media posts into Po
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
 
-Installation & Setup
+## Installation & Setup
 1. Clone the Repository
 Bash
 git clone [https://github.com/navneet-prasad/sentiment-analyzer.git](https://github.com/navneet-prasad/sentiment-analyzer.git)
